@@ -31,7 +31,7 @@ Please refer to the [HbbTV 2.0 Spec document -> section 14 about Companion Scree
 
 # Build and run instructions
 
-Currently the [Cordova HbbTV Plugin](http://fraunhoferfokus.github.io/cordova-plugin-hbbtv/) supports Android. iOS is work in progress and will be available soon.
+Currently the [Cordova HbbTV Plugin](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv) supports Android. iOS is work in progress and will be available soon.
 
 ## Android instructions
 
