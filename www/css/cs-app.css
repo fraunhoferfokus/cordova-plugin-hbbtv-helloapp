@@ -1,0 +1,113 @@
+/*******************************************************************************
+ *
+ * Copyright (c) 2015 Fraunhofer FOKUS, All rights reserved.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3.0 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * AUTHORS: Louay Bassbouss (louay.bassbouss@fokus.fraunhofer.de)
+ *
+ ******************************************************************************/
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html {
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-image: url("http://famalytics.fokus.fraunhofer.de/piwik.php?idsite=19&rec=1&action_name=cordova-plugin-hbbtv-helloapp");
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+.title{
+    text-overflow: clip;
+    overflow: hidden;
+    font-size: 18px;
+    height: 20px;
+    margin: 2px;
+}
+#discoverTerminalsBtn {
+    margin: 2px;
+    height: 20px;
+}
+#menu {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    max-height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#terminals {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    max-height: 100px;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color:#E4E4E4;
+    font-size: 14px;
+}
+#terminals li {
+    padding: 5px;
+}
+#terminals button{
+    font-size: 14px;
+    height: 20px;
+}
+
+#logDiv {
+    position: absolute;
+    top: 155px;
+    bottom: 20px;
+    left: 5px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#log {
+    background-color:#E4E4E4;
+    height: 98%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#copyRights {
+    position: absolute;
+    height: 15px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: center;
+}

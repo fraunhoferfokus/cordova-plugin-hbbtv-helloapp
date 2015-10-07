@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+/*******************************************************************************
+ *
+ * Copyright (c) 2015 Fraunhofer FOKUS, All rights reserved.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3.0 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * AUTHORS: Louay Bassbouss (louay.bassbouss@fokus.fraunhofer.de)
+ *
+ ******************************************************************************/
+-->
+<html>
+<head lang="en">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/cs-app.css">
+    <title>Companion Screen Cordova App</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="title">Sample HbbTV CS Cordova Web App</div>
+    <button id="discoverTerminalsBtn" disabled="disabled">Discover HbbTV Terminals</button>
+</div>
+<ul id="terminals">
+Discovered terminals will appear here!
+</ul>
+<div id="logDiv">
+  <textarea id="log" disabled="true">Log console:
+</textarea>
+</div>
+<div id="copyRights"><a id="copyRightsLink">Copyright (c) 2015, Fraunhofer FOKUS, All rights reserved</a></div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/cs-app.js"></script>
+</body>
+</html>
