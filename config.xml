@@ -9,7 +9,7 @@
     </author>
     <content src="cs-app.html" />
     <icon src="www/img/icon.png"/>
-	<plugin name="cordova-plugin-hbbtv" version="0.0.1"/>
+	<plugin name="cordova-plugin-hbbtv" version="0.0.2"/>
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="http://*/*" />

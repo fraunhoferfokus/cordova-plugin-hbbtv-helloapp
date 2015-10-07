@@ -48,7 +48,7 @@ $ cordova run android
 ```
 
 NOTE: the command `cordova plugin add cordova-plugin-hbbtv` may not be needed since Cordova installs required plugins listed in `config.xml`
-(e.g. `<plugin name="cordova-plugin-hbbtv" version="0.0.1"/>` for the HbbTV plugin) automatically after adding a platform using `cordova platform add android`.
+(e.g. `<plugin name="cordova-plugin-hbbtv" version="0.0.2"/>` for the HbbTV plugin) automatically after adding a platform using `cordova platform add android`.
 Alternatively to installing the Cordova plugin from the registry, the plugin can be installed by pointing to its repository on GitHub:
 
 ```$ cordova plugin add https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git```
