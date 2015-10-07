@@ -57,13 +57,36 @@ Alternatively to installing the Cordova plugin from the registry, the plugin can
 
 coming soon ...
 
-# Usage of the [Cordova HbbTV Plugin](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv)
+# Usage of the [Cordova HbbTV Plugin](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv) in this App
 
 The App files are available in the [www](www) folder. [cs-app.html](www/cs-app.html) is the main HTML file loaded when the
 App is started. [js/cs-app.js](www/js/cs-app.js) is the main JavaScript file of this App. Please refer to it for more details
 about the usage of the [Cordova HbbTV Plugin](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv) in this App. Please also
 refer to the [Cordova HbbTV Plugin Documentation](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv/blob/master/doc/index.md)
 to get more details about the Plugin APIs.
+
+# Test
+
+In order to test this Cordova App, a HbbTV 2.0 Terminal that implements the HbbTV 2.0 CS Spec is needed. First TV devices
+that implement the HbbTV 2.0 Spec are expected in 2016. As alternative, the [Node.js HbbTV 2.0 CS module](https://www.npmjs.com/package/hbbtv)
+can be used and started in `terminal` mode on a desktop PC. This Cordova App will discover the running Node.js HbbTV module as it is a real
+HbbTV Terminal. Please refer to the [module documentation on npm](https://www.npmjs.com/package/hbbtv) for more details about how to install and run the module.
+
+As next step, please start this Cordova App on a companion device (for now Android) and follow these steps:
+
+1. Click on the `Discover HbbTV Terminals` button and wait few seconds.
+1. After discovery is completed, the found HbbTV Terminals will appear in the div below the button.
+   * Please make sure that the companion device and the PC are in the same network
+1. Click on the `Launch` button for one of the discovered terminals.
+   * The HbbTV App http://fraunhoferfokus.github.io/node-hbbtv/www/hbbtv-app.html will be launched on the PC in the default browser
+1. Click on the `Connect` button for the same Terminal from previous step.
+   * An App2App WebSocket channel between the Cordova App (Companion App) and the launched HbbTV App will be established.
+   * Some text and binary messages will be exchanged and corresponding logs will be displayed in the Log console.
+   * You can Click many times on the `Connect` button to create new channels
+
+Below is a screenshot of this Cordova App on an Android tablet.
+
+![Cordova App](www/img/screenshot.png)
 
 # License
 
