@@ -27,7 +27,7 @@ This sample app bases on the standard Cordova sample app and extends it by
 HbbTV 2.0 CS features using the [Cordova HbbTV Plugin](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv).
 Please refer to the [HbbTV 2.0 Spec document -> section 14 about Companion Screen][hbbtv20spec] for more details.
 
-[Comments](https://github.com/fraunhoferfokus/cordova-plugin-presentation-helloapp/issues) and [contribution](https://github.com/fraunhoferfokus/cordova-plugin-presentation-helloapp/pulls) anytime welcome.
+[Comments](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv-helloapp/issues) and [contribution](https://github.com/fraunhoferfokus/cordova-plugin-hbbtv-helloapp/pulls) anytime welcome.
 
 # Build and run instructions
 
