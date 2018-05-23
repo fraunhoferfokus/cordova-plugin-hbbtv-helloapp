@@ -32,7 +32,6 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-image: url("http://famalytics.fokus.fraunhofer.de/piwik.php?idsite=19&rec=1&action_name=cordova-plugin-hbbtv-helloapp");
     margin:0px;
     padding:0px;
     width:100%;
